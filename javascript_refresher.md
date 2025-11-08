@@ -1543,7 +1543,7 @@ The for in loop can be used with object literals to get the keys of the object.
 ```js
 const user = {
   firstName: "AbulQasim",
-  lastName: "Yetayeh",
+  lastName: "Ansari",
   age: 250,
   country: "Finland",
   skills: ["HTML", "CSS", "JS", "React", "Node", "Python", "D3.js"],
@@ -1749,7 +1749,7 @@ console.log(rectangle); // {length: 20, width: 20}
 
 const person = {
   firstName: "AbulQasim",
-  lastName: "Yetayeh",
+  lastName: "Ansari",
   age: 250,
   country: "Finland",
   city: "Helsinki",
@@ -1778,7 +1778,7 @@ We can access values of object using two methods:
 ```js
 const person = {
   firstName: "AbulQasim",
-  lastName: "Yetayeh",
+  lastName: "Ansari",
   age: 250,
   country: "Finland",
   city: "Helsinki",
@@ -1822,7 +1822,7 @@ Now, the person object has getFullName properties. The getFullName is function i
 ```js
 const person = {
   firstName: "AbulQasim",
-  lastName: "Yetayeh",
+  lastName: "Ansari",
   age: 250,
   country: "Finland",
   city: "Helsinki",
@@ -1842,7 +1842,7 @@ const person = {
 };
 
 console.log(person.getFullName());
-// AbulQasim Yetayeh
+// AbulQasim Ansari
 ```
 
 #### Setting new key for an object
@@ -1854,7 +1854,7 @@ Setting a new keys in an object
 ```js
 const person = {
   firstName: "AbulQasim",
-  lastName: "Yetayeh",
+  lastName: "Ansari",
   age: 250,
   country: "Finland",
   city: "Helsinki",
@@ -1895,7 +1895,7 @@ console.log(person.getPersonInfo());
 ```
 
 ```sh
-AbulQasim Yetayeh is a teacher.
+AbulQasim Ansari is a teacher.
 He lives in Finland.
 He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, and SasS.
 ```
@@ -2199,7 +2199,7 @@ addTwoNumbers(); // a function has to be called by its name to be executed
 ```js
 function printFullName() {
   let firstName = "AbulQasim";
-  let lastName = "Yetayeh";
+  let lastName = "Ansari";
   let space = " ";
   let fullName = firstName + space + lastName;
   console.log(fullName);
@@ -2215,7 +2215,7 @@ Function can also return values, if a function does not return values the value 
 ```js
 function printFullName() {
   let firstName = "AbulQasim";
-  let lastName = "Yetayeh";
+  let lastName = "Ansari";
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
@@ -2284,7 +2284,7 @@ console.log(sumTwoNumbers(10, 20));
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`;
 }
-console.log(printFullName("AbulQasim", "Yetayeh"));
+console.log(printFullName("AbulQasim", "Ansari"));
 ```
 
 #### Function with many parameters
@@ -2474,7 +2474,7 @@ const printFullName = (firstName, lastName) => {
   return `${firstName} ${lastName}`;
 };
 
-console.log(printFullName("AbulQasim", "Yetayeh"));
+console.log(printFullName("AbulQasim", "Ansari"));
 ```
 
 The above function has only the return statement, therefore, we can explicitly return it as follows.
@@ -2482,7 +2482,7 @@ The above function has only the return statement, therefore, we can explicitly r
 ```js
 const printFullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-console.log(printFullName("AbulQasim", "Yetayeh"));
+console.log(printFullName("AbulQasim", "Ansari"));
 ```
 
 #### Function with default parameters
@@ -2514,7 +2514,7 @@ console.log(greetings("AbulQasim"));
 ```
 
 ```js
-function generateFullName(firstName = "AbulQasim", lastName = "Yetayeh") {
+function generateFullName(firstName = "AbulQasim", lastName = "Ansari") {
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
@@ -2570,7 +2570,7 @@ console.log(greetings("AbulQasim"));
 ```
 
 ```js
-const generateFullName = (firstName = "AbulQasim", lastName = "Yetayeh") => {
+const generateFullName = (firstName = "AbulQasim", lastName = "Ansari") => {
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
@@ -3111,7 +3111,7 @@ We can just destructure step by step
 const props = {
   user:{
     firstName:'AbulQasim',
-    lastName:'Yetayeh',
+    lastName:'Ansari',
     age:250
   },
   post:{
@@ -3136,7 +3136,7 @@ const [skillOne, skillTwo, skillThree, skillFour, skillFive] = skills
 const props = {
   user:{
     firstName:'AbulQasim',
-    lastName:'Yetayeh',
+    lastName:'Ansari',
     age:250
   },
   post:{
@@ -3191,7 +3191,7 @@ Create a function called getPersonInfo. The getPersonInfo function takes an obje
 ```js
 const person = {
   firstName: "AbulQasim",
-  lastName: "Yetayeh",
+  lastName: "Ansari",
   age: 250,
   country: "Finland",
   job: "Instructor and Developer",
@@ -3210,7 +3210,7 @@ const person = {
 };
 
 /*
-AbulQasim Yetayeh lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
+AbulQasim Ansari lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
 */
 ```
 
@@ -3895,13 +3895,13 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh");
+const person1 = new Person("AbulQasim", "Ansari");
 
 console.log(person1);
 ```
 
 ```sh
-Person {firstName: "AbulQasim", lastName: "Yetayeh"}
+Person {firstName: "AbulQasim", lastName: "Ansari"}
 ```
 
 As we have stated at the very beginning that once we create a class we can create many object using the class. Now, let us create many person objects using the Person class.
@@ -3915,9 +3915,9 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh");
+const person1 = new Person("AbulQasim", "Ansari");
 const person2 = new Person("Lidiya", "Tekle");
-const person3 = new Person("Abraham", "Yetayeh");
+const person3 = new Person("Abraham", "Ansari");
 
 console.log(person1);
 console.log(person2);
@@ -3925,9 +3925,9 @@ console.log(person3);
 ```
 
 ```sh
-Person {firstName: "AbulQasim", lastName: "Yetayeh"}
+Person {firstName: "AbulQasim", lastName: "Ansari"}
 Person {firstName: "Lidiya", lastName: "Tekle"}
-Person {firstName: "Abraham", lastName: "Yetayeh"}
+Person {firstName: "Abraham", lastName: "Ansari"}
 ```
 
 Using the class Person we created three persons object. As you can see our class did not many properties let us add more properties to the class.
@@ -3944,13 +3944,13 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("AbulQasim", "Ansari", 250, "Finland", "Helsinki");
 
 console.log(person1);
 ```
 
 ```sh
-Person {firstName: "AbulQasim", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
+Person {firstName: "AbulQasim", lastName: "Ansari", age: 250, country: "Finland", city: "Helsinki"}
 ```
 
 #### Default values with constructor
@@ -3961,7 +3961,7 @@ The constructor function properties may have a default value like other regular 
 class Person {
   constructor(
     firstName = "AbulQasim",
-    lastName = "Yetayeh",
+    lastName = "Ansari",
     age = 250,
     country = "Finland",
     city = "Helsinki"
@@ -3982,7 +3982,7 @@ console.log(person2);
 ```
 
 ```sh
-Person {firstName: "AbulQasim", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
+Person {firstName: "AbulQasim", lastName: "Ansari", age: 250, country: "Finland", city: "Helsinki"}
 Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Espoo"}
 ```
 
@@ -4005,7 +4005,7 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("AbulQasim", "Ansari", 250, "Finland", "Helsinki");
 const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
 console.log(person1.getFullName());
@@ -4013,7 +4013,7 @@ console.log(person2.getFullName());
 ```
 
 ```sh
-AbulQasim Yetayeh
+AbulQasim Ansari
 test.js:19 Lidiya Tekle
 ```
 
@@ -4038,7 +4038,7 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("AbulQasim", "Ansari", 250, "Finland", "Helsinki");
 const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
 console.log(person1.score);
@@ -4084,7 +4084,7 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("AbulQasim", "Ansari", 250, "Finland", "Helsinki");
 const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
 console.log(person1.getScore); // We do not need parenthesis to call a getter method
@@ -4134,7 +4134,7 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("AbulQasim", "Ansari", 250, "Finland", "Helsinki");
 const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
 person1.setScore = 1;
@@ -4203,7 +4203,7 @@ class Person {
   }
 }
 
-const person1 = new Person("AbulQasim", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("AbulQasim", "Ansari", 250, "Finland", "Helsinki");
 const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 const person3 = new Person("John", "Doe", 50, "Mars", "Mars city");
 
@@ -4235,7 +4235,7 @@ console.log(person3.getPersonInfo());
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-AbulQasim Yetayeh is 250. He lives Helsinki, Finland. He knows HTML, CSS and JavaScript
+AbulQasim Ansari is 250. He lives Helsinki, Finland. He knows HTML, CSS and JavaScript
 Lidiya Tekle is 28. He lives Espoo, Finland. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
@@ -4340,7 +4340,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Student("AbulQasim", "Yetayeh", "Finland", 250, "Helsinki");
+const s1 = new Student("AbulQasim", "Ansari", "Finland", 250, "Helsinki");
 console.log(s1);
 console.log(s1.saySomething());
 console.log(s1.getFullName());
@@ -4348,11 +4348,11 @@ console.log(s1.getPersonInfo());
 ```
 
 ```sh
-Student {firstName: "AbulQasim", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
+Student {firstName: "AbulQasim", lastName: "Ansari", age: "Finland", country: 250, city: "Helsinki", …}
 I am a child of the person class
-AbulQasim Yetayeh
-Student {firstName: "AbulQasim", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
-AbulQasim Yetayeh is Finland. He lives Helsinki, 250.
+AbulQasim Ansari
+Student {firstName: "AbulQasim", lastName: "Ansari", age: "Finland", country: 250, city: "Helsinki", …}
+AbulQasim Ansari is Finland. He lives Helsinki, 250.
 ```
 
 #### Overriding methods
@@ -4386,7 +4386,7 @@ class Student extends Person {
 
 const s1 = new Student(
   "AbulQasim",
-  "Yetayeh",
+  "Ansari",
   250,
   "Finland",
   "Helsinki",
@@ -4415,12 +4415,12 @@ console.log(s2.getPersonInfo());
 ```
 
 ```sh
-Student {firstName: "AbulQasim", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
+Student {firstName: "AbulQasim", lastName: "Ansari", age: 250, country: "Finland", city: "Helsinki", …}
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
 I am a child of the person class
-AbulQasim Yetayeh
-Student {firstName: "AbulQasim", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
-AbulQasim Yetayeh is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
+AbulQasim Ansari
+Student {firstName: "AbulQasim", lastName: "Ansari", age: 250, country: "Finland", city: "Helsinki", …}
+AbulQasim Ansari is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
 I am a child of the person class
 Lidiya Tekle
 Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
