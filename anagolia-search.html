@@ -45,11 +45,11 @@
 
     <script>
         const searchClient = algoliasearch(
-            "98R01CTG6P",
-            "d3a3d121c885d8c35abbc1596e5e48b6"
+            "", //
+            "" //
         );
 
-        const countriesIndex = searchClient.initIndex("country_name");
+        const countriesIndex = searchClient.initIndex(""); //
 
         const input = document.getElementById("search-input");
         const suggestionBox = document.getElementById("suggestions");
@@ -420,9 +420,9 @@
     <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
 
     <script>
-        const APP_ID = "98R01CTG6P";
-        const SEARCH_KEY = "d3a3d121c885d8c35abbc1596e5e48b6";
-        const INDEX_NAME = "algolia_movie_sample_dataset";
+        const APP_ID = ""; // Enter Application Id
+        const SEARCH_KEY = ""; // Enter Search Key
+        const INDEX_NAME = ""; // Enter Index Number
 
         const searchClient = algoliasearch(APP_ID, SEARCH_KEY);
 
